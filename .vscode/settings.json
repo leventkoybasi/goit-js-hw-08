@@ -1,0 +1,27 @@
+{
+  // Editor Ayarları
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 13,
+  "editor.smoothScrolling": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+
+  // Terminal Ayarları
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  // Emmet Ayarları
+  "emmet.triggerExpansionOnTab": true,
+
+  // Live Server Ayarları
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "files.exclude": {
+    "**/.DS_Store": true // .DS_Store dosyalarını gizle
+  }
+}
