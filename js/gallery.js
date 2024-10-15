@@ -27,5 +27,11 @@ imgContainer.addEventListener("click", (e) => {
     `);
 
     lightbox.show();
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        lightbox.close();
+      }
+    });
   }
 });
